@@ -1,0 +1,5 @@
+pipenv install django=={version}
+django-admin startproject {projectname} .
+python manage.py runserver
+
+-- written by Don
