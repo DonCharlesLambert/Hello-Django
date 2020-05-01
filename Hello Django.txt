@@ -1,5 +1,11 @@
 pipenv install django=={version}
+pipenv shell
 django-admin startproject {projectname} .
 python manage.py runserver
 
+A django project controls a website
+A project can contain multiple apps
+each app focuses on a particular website
+
+python manage.py startapp hello
 -- written by Don
