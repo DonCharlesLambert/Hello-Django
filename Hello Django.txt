@@ -1,11 +1,20 @@
-pipenv install django=={version}
-pipenv shell
-django-admin startproject {projectname} .
+pipenv install django=={version}        	# installs django in virtualenv
+pipenv shell					# runs virtualenv shell
+django-admin startproject {projectname} .	# creates new project
 python manage.py runserver
 
 A django project controls a website
 A project can contain multiple apps
 each app focuses on a particular website
 
-python manage.py startapp hello
+python manage.py startapp {appname} 		# creates an app
+go to settings.py and add {appname} to installed apps
+// for this example //
+from django.http import HttpResponse
+in views create a function that takes a httprequest
+returns a HttpResponse("")
+//                  //
+go to urls.py
+- import the relevant view.py
+- add a path which refers to the funciton
 -- written by Don
