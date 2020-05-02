@@ -19,5 +19,5 @@ from hello.views import wys
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/', wys)
+    path('', wys)
 ]

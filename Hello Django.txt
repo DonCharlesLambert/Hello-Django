@@ -17,4 +17,13 @@ returns a HttpResponse("")
 go to urls.py
 - import the relevant view.py
 - add a path which refers to the funciton
+
+from django.shortcuts import render
+render(request, 'filename.html')
+
+go to setting.py
+- go to templates
+- in DIRS add os.path.join(BASE_DIRS, 'foldername')
+
+
 -- written by Don
