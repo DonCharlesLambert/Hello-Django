@@ -25,5 +25,10 @@ go to setting.py
 - go to templates
 - in DIRS add os.path.join(BASE_DIRS, 'foldername')
 
+adding css/javascript
+make sure django.contrib.staticfiles is installed in settings.py
+define STATIC URL in settings.py
+load files in html using {% load static %}
+
 
 -- written by Don
