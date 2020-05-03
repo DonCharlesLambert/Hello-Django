@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 
 def wys(request):
-    return HttpResponse("wys Django")
+    return render(request, "index.html")
