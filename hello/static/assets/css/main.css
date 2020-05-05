@@ -1177,9 +1177,8 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		position: relative;
-		min-height: 100vh;
 		width: 100%;
-		padding: 4rem 2rem;
+		padding: 0rem 2rem;
 		z-index: 3;
 	}
 
@@ -1191,7 +1190,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#wrapper {
-				padding: 3rem 2rem;
+				padding: 0rem 2rem;
 			}
 
 		}
@@ -1199,7 +1198,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#wrapper {
-				padding: 2rem 1rem;
+				padding: 0rem 1rem;
 			}
 
 		}
@@ -1207,7 +1206,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#wrapper {
-				padding: 1rem;
+				padding: 0rem;
 			}
 
 		}
